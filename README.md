@@ -2,7 +2,7 @@
 
 ##Install
 1. ```go get -u github.com/WitzHsiao/goproj```
-2. Remove ```GOPATH``` in ```.bashrc``` or ```.bash_profil```
+2. Remove ```GOPATH``` in ```.bashrc``` or ```.bash_profile```
 
 ##Usage
 ```
@@ -13,8 +13,7 @@ Tasks:
 	goproj here : Set GOPATH to this project
 ```
 ##Package management format
-1. Using yaml
-2. Sample:
+Sample:
 ``` yml
 deps: [
 	"github.com/WitzHsiao/goproj", 
